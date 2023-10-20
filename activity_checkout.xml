@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre del Producto" />
+
+    <EditText
+        android:id="@+id/editTextQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre Producto" />
+
+    <EditText
+        android:id="@+id/editTextQuantity2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cantidad" />
+
+    <EditText
+        android:id="@+id/editTextQuantity3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Distancia" />
+
+    <Button
+        android:id="@+id/buttonAddToCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar al Carrito"
+        android:onClick="Calculo"/>
+
+    <TextView
+        android:id="@+id/textViewTotal1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total: $0.00" />
+
+    <Button
+        android:id="@+id/buttonPlaceOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Realizar Pedido"
+        android:onClick="Precio_Final"/>
+
+    <EditText
+        android:id="@+id/editTextQuantity4"
+        android:layout_width="match_parent"
+        android:layout_height="399dp"
+        android:hint="" />
+</LinearLayout>
